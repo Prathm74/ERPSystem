@@ -1,0 +1,103 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Layout styles */
+.Layout {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  max-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Add this line */
+}
+
+
+h2 {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* AppBar styles */
+.app-bar {
+  background-color: #007bff;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.app-bar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.app-bar .logo {
+  font-size: 1.5rem;
+}
+
+.app-bar .nav-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.app-bar .nav-links ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.app-bar .nav-links ul li:last-child {
+  margin-right: 0;
+}
+
+/* SideBar styles */
+.side-bar {
+  background-color: #f0f0f0;
+  width: 250px;
+}
+
+.side-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.side-bar ul li {
+  padding: 10px;
+}
+
+.side-bar ul li:hover {
+  background-color: #ddd;
+}
+
+/* Layout styles */
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}
